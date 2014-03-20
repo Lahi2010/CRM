@@ -77,19 +77,26 @@
 	float: left;
 	margin: 0;
 	cursor: pointer;
-	padding: 0px 12px;
+	padding: 0px 10px;
+	border:2px solid #FFF;
+	line-height: 58px;
 	
-	line-height: 47px;
-	
-background-color: #003f5d;
+background-color: #FF3D00;
 	color: #fff;
 	overflow: hidden;
 	position: relative;
 	
-	height: 50px;
-border-radius: 25px;
-width: 50px;
+	height: 64px;
+border-radius: 32px;
+width: 64px;
 margin: 0 20px 0 20px;
+
+
+-webkit-transition: background-color 0.5s ease-in-out;
+-moz-transition: background-color 0.5s ease-in-out;
+-ms-transition: background-color 0.5s ease-in-out;
+-o-transition: background-color 0.5s ease-in-out;
+transition: background-color 0.5s ease-in-out;
 }
 
 
@@ -100,7 +107,7 @@ margin: 0 20px 0 20px;
 }
 
 .footer_tab_wrapper ul.tabs_footer li.active_footer {
-	background-color: rgba(0,45,57,1);
+	background-color:rgba(0,102,255,1);
 	color: #fff;
 
 	display: block;
@@ -112,7 +119,7 @@ margin: 0 20px 0 20px;
 	clear: both;
 	float: left;
 	width: 100%;
-	
+	padding: 10px;
 	overflow: auto;
 }
 
@@ -126,7 +133,9 @@ margin: 0 20px 0 20px;
 .footer_tab_style{width:580px !important; margin:0 auto !important;float:none !important; }
 .footer_tab_wrapper{width:100%; background-color:rgba(255,255,255,0.5);}
 .footer_tab_wrapper ul.tabs_footer li {background-color:none !important;}
-.footer_tab_wrapper ul.tabs_footer li:hover {background-color:rgba(0,51,0,1);}
+.footer_tab_wrapper ul.tabs_footer li:hover {background-color:rgba(0,102,255,1);
+
+}
 @media screen and (min-width: 992px) {
 	.tab_container {
 		height:130px !important;
@@ -136,9 +145,11 @@ margin: 0 20px 0 20px;
 	
 	
 	.tab_container_footer {
-		height:130px !important;
+		height:154px !important;
 		background: rgba(0,45,57,.8);
 	}
+	.tab_content_footer a{color:rgba(204,204,204,1); font-size:12px; text-decoration:none;}
+	.tab_content_footer a:hover{color:rgba(255,255,255,1); text-decoration:none;}
 	}
 @media screen and (max-width:992px){.tab_content{background: rgba(0,45,57,.8);}.tab_content_footer{background: rgba(0,45,57,.8);} 
 body {
