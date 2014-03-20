@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+body{margin:0; padding:0;background-image:url(dist/images/background_res_small.jpg);background-size:100%; display:block;background-repeat:no-repeat; font-family: 'Open Sans', sans-serif; background-color: #D3E3F3;}
+.header{
+background-color:rgba(255,255,255,0.7);height:100px; margin-top:10px; background-image: url(dist/images/header_bg.png);
+background-repeat: no-repeat; background-position:right bottom;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);
+}
+.header .logo{max-width:300px; height:70px; float:left; margin-top:10px;
+float: left;
+margin-left: 10px;} 
+.logo img{width:100%;}
+
+.header .header_right{
+	width:600px;
+height: 100px;
+
+float: right;
+background-position: bottom;
+background-size: 441px;
+}
+.header_tel{ width:600px; height:50px; background-image:}
+.header_tel_num{width:190px; height:32px; display:block; background-image:url(dist/images/telephone_bg.png);float:right;color: #FFFFFF;
+font-weight: bold;
+text-indent: 49px;
+line-height: 32px; text-decoration:none;}
+.header_tel_num:hover{color: #FFFFFF; text-decoration:none;
+}
+.quote{margin-top: 32px;
+display: block;
+float: left;
+font-size: 18px;
+color:#ff4000;
+font-family:"hand_of_sean_demoregular",Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif
+
+}
+
+.prof_pic{width:42px; height:40px; float:left; padding:2px; line-height: 41px; }
+.user_det{float:left; min-width:100px;}
+.notifications{float:left; min-width:21px;}
+.profile_tab{line-height:16px !important;}
+.username{font-weight:bold;padding-top:9px;}
+.role{font-size:10px;}
+.tab_button{width:100%; margin:6px 0; height:46px; line-height:46px; padding:0 6px; display:block; text-decoration:none; background-color:#002d39; color:#FFF; text-decoration:none;font-weight: bold;
+font-size: 12px;
+
+-webkit-transition: background-color 0.2s ease-in-out;
+-moz-transition: background-color 0.2s ease-in-out;
+-ms-transition: background-color 0.2s ease-in-out;
+-o-transition: background-color 0.2s ease-in-out;
+transition: background-color 0.2s ease-in-out;
+}
+.tab_button:hover{text-decoration:none; color:#FFF; background-color:#005e8a; }
+.tab_button img{ margin-right:6px;}
+.tab_content .col-md-2{
+
+padding-right: 10px !important;
+padding-left: 10px !important;
+}
+
+.res_prof_wrap{width:67px; float:right;}
+.res_sp_profile_wrap{width:100px; float:left; margin-top: 11px;
+margin-left: 7px; }
+.res_sp_profile{height:39px; padding: 0 10px !important;}
+.res_sp_profile h5{margin: 0px 3px !important; width:100px !important; }
+.notif_bg{width:24px; height:47px; text-align:center;line-height: 36px; font-size:10px; font-weight:bold; background-image:url(dist/images/notif_bg_active.png); background-position:center 8px; background-repeat:no-repeat;margin-left: 9px;}
+
+.title_bar{width:100%; height:47px; line-height:47px; background-color:#003f5d; color:#FFF; margin-top: 10px;padding: 0px 12px;float:left;display:block;}
+.title_version{float:right; font-size:10px; color:#FFF; display:block;}
+
+/* login */
+.box_wrap{margin:50px auto; float:none !important; position:relative; }
+.center_box{
+	
+	background:rgba(0,63,093); background:rgba(0,63,093,0.8); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);  color:#FFF; position:relative;
+	top:-50px;padding:80px 10px 10px 10px; }
+	.center_circle{width:100px; height:100px; background-color:#003f5d; position:relative;	margin:0 auto; border-radius:50px;border:2px solid #FFF; background-image:url(dist/images/login_main_icon.png); background-position:center; background-repeat:no-repeat;z-index:2;}
+.content_bg{
+width: 100%;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF); 
+background-color: rgba(255,255,255,0.3);}
+
+.align-center {text-align:center;}
+.white{color:#FFF;}
+
+/* forms */
+.form-control{
+	border: 0px !important;
+border-radius: 0px !important;
+	}
+	.input-group-addon{
+	background-color: #ff4000 !important;
+border: 0px !important;
+border-radius: 0px !important;
+color:#FFF !important;
+font-weight:bold;
+	}
+	
+	.btn{
+	border: 0px;
+border-radius: 0px;
+	}
+.sponsers{width:100%;  }
+.sponser_item{line-height:100px;height:100px; text-align:center;background-color:rgba(255,255,255,1); margin-bottom:2px; /* Firefox */
+    -moz-transition: all .2s ease-in;
+    /* WebKit */
+    -webkit-transition: all .2s ease-in;
+    /* Opera */
+    -o-transition: all .2s ease-in;
+    /* Standard */
+    transition: all .2s ease-in;}
+.item_1{ background-size:160px 52px; background-image:url(dist/images/sponsers_logo/melwa_gradient.png); background-position:center; background-repeat:no-repeat; cursor:pointer; }
+.item_2{  background-size:90px 90px; background-image:url(dist/images/sponsers_logo/srilanka_gradient.png); background-position:center; background-repeat:no-repeat; cursor:pointer; } 
+.item_3{  background-size:152px 73px;  background-image:url(dist/images/sponsers_logo/aviation_gradient.png); background-position:center; background-repeat:no-repeat; cursor:pointer; }
+.item_4{  background-size:152px 79px; background-image:url(dist/images/sponsers_logo/iata_gradient.png); background-position:center; background-repeat:no-repeat;  cursor:pointer;} 
+.item_5{  background-size:160px 35px; background-image:url(dist/images/sponsers_logo/creditcards_gradient.png); background-position:center; background-repeat:no-repeat; cursor:pointer; } 
+.item_6{ background-size:88px 87px;  background-image:url(dist/images/sponsers_logo/positivessl-icon_gradient.png); background-position:center; background-repeat:no-repeat; cursor:pointer;
+ }
+
+.item_1:hover{  background-image:url(dist/images/sponsers_logo/melwa.png);   }
+.item_2:hover{  background-image:url(dist/images/sponsers_logo/srilanka.png);   }
+.item_3:hover{  background-image:url(dist/images/sponsers_logo/aviation.jpg);   }
+.item_4:hover{  background-image:url(dist/images/sponsers_logo/iata.png);   }
+.item_5:hover{  background-image:url(dist/images/sponsers_logo/creditcards.png);   }
+.item_6:hover{  background-image:url(dist/images/sponsers_logo/positivessl-icon.png);   }
+
+
+/* custom setings */
+.set_margin_top_10{margin-top:10px !important;}
+.set_full_width{width:100%;}
+.border-right{ border-right:1px dotted #CCC; }
+.login_lnk{ font-size:12px; color:#CCC;}
+.login_lnk:hover{  color:#FFF;  text-decoration:none;}
+
+/* media queries */
+
+@media screen and (max-width: 556px){
+
+	.header .header_right{
+	display:none;
+}
+.btn{width:100%;}
+}
+
+@media screen and (max-width: 992px){
+	.quote{display:none;}
+	.header_tel{ width:191px;float: right;}
+	.header .header_right{
+	width:191px;
+}
+.user_det{display:none;}
+}
+@media screen and (max-width: 642px){
+  /* some CSS here */
+ .header{
+	 background-image:none !important;
+}
+/* #### Desktops #### */
+@media screen and (max-width: 768px){
+  /* some CSS here */
+  .header .header_right{
+	width: 200px !important;
+	height: 100px;
+
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  /* some CSS here */
+  .header .header_right{
+	width: 309px !important;
+	height: 100px;
+
+}
+}
+
+
+@media screen and (max-width: 1024px){
+
+}
+
+
+
+
