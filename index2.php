@@ -227,9 +227,9 @@
   <h5 class="tab_drawer_heading_footer" rel="tab5_footer"><img src="dist/images/about_icon.png" width="19" height="19" /> &nbsp; About</h5>
   <div id="tab5_footer" class="tab_content_footer">
   <h4>About</h4>
-    <p>Integer ultrices lacus sit amet lorem viverra consequat. Vivamus lacinia interdum sapien non faucibus. Maecenas bibendum, lectus at ultrices viverra, elit magna egestas magna, a adipiscing mauris justo nec eros.</p>
+    <p>Integer ultrices lacus sit amet lorem viverra consequat. Vivamus lacinia interdum sapien non faucibus. Maecenas bibendum, lectus at ultrices viverra, elit magna egestas magna, a adipiscing mauris justo nec eros.eeeeeeeeeeeeeeee</p>
   </div>
-  <!-- #tab5 --> 
+  <!-- #tab5ee --> 
   
 
   
