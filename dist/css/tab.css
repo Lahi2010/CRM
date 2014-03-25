@@ -130,8 +130,9 @@ transition: background-color 0.5s ease-in-out;
 }
 .tab_drawer_heading_footer { display: none; }
 
-.footer_tab_style{width:580px !important; margin:0 auto !important;float:none !important; }
-.footer_tab_wrapper{width:100%; background-color:rgba(255,255,255,0.5);}
+.footer_tab_style{width:521px !important; margin:0 auto !important;float:none !important; }
+.footer_tab_wrapper{width:100%; position: relative;
+z-index: 2;}
 .footer_tab_wrapper ul.tabs_footer li {background-color:none !important;}
 .footer_tab_wrapper ul.tabs_footer li:hover {background-color:rgba(0,102,255,1);
 
@@ -147,6 +148,8 @@ transition: background-color 0.5s ease-in-out;
 	.tab_container_footer {
 		height:154px !important;
 		background: rgba(0,45,57,.8);
+		position: relative;
+top: -32px;
 	}
 	.tab_content_footer a{color:rgba(204,204,204,1); font-size:12px; text-decoration:none;}
 	.tab_content_footer a:hover{color:rgba(255,255,255,1); text-decoration:none;}

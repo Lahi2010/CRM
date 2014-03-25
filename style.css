@@ -1,8 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+ @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+/*
+@font-face {
+    font-family: 'Open Sans';
+    src: url('dist/fonts/OpenSans/opensans-regular-webfont.eot');
+    src: url('dist/fonts/OpenSans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('dist/fonts/OpenSans/opensans-regular-webfont.woff') format('woff'),
+         url('dist/fonts/OpenSans/opensans-regular-webfont.ttf') format('truetype'),
+         url('dist/fonts/OpenSans/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
-body{margin:0; padding:0;background-image:url(dist/images/background_res_small.jpg);background-size:100%; display:block;background-repeat:no-repeat; font-family: 'Open Sans', sans-serif; background-color: #D3E3F3;}
+}
+*/
+body{margin:0; padding:0;background-image:url(dist/images/background_res_small.jpg);background-size:100%; display:block;background-repeat:no-repeat; font-family: 'Open Sans', sans-serif; background-color: #eef4f6;}
 .header{
 background-color:rgba(255,255,255,0.7);height:100px; margin-top:10px; background-image: url(dist/images/header_bg.png);
 background-repeat: no-repeat; background-position:right bottom;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);
@@ -102,7 +114,7 @@ font-weight:bold;
 border-radius: 0px;
 	}
 .sponsers{width:100%;  }
-.sponser_item{line-height:100px;height:100px; text-align:center;background-color:rgba(255,255,255,1); margin-bottom:2px; /* Firefox */
+.sponser_item{line-height:100px;height:100px; text-align:center;background-color:rgba(255,255,255,1); /* Firefox */
     -moz-transition: all .2s ease-in;
     /* WebKit */
     -webkit-transition: all .2s ease-in;
@@ -110,12 +122,12 @@ border-radius: 0px;
     -o-transition: all .2s ease-in;
     /* Standard */
     transition: all .2s ease-in;}
-.item_1{ background-size:160px 52px; background-image:url(dist/images/sponsers_logo/melwa_gradient.png); background-position:center; background-repeat:no-repeat; cursor:pointer; }
-.item_2{  background-size:90px 90px; background-image:url(dist/images/sponsers_logo/srilanka_gradient.png); background-position:center; background-repeat:no-repeat; cursor:pointer; } 
-.item_3{  background-size:152px 73px;  background-image:url(dist/images/sponsers_logo/aviation_gradient.png); background-position:center; background-repeat:no-repeat; cursor:pointer; }
-.item_4{  background-size:152px 79px; background-image:url(dist/images/sponsers_logo/iata_gradient.png); background-position:center; background-repeat:no-repeat;  cursor:pointer;} 
-.item_5{  background-size:160px 35px; background-image:url(dist/images/sponsers_logo/creditcards_gradient.png); background-position:center; background-repeat:no-repeat; cursor:pointer; } 
-.item_6{ background-size:88px 87px;  background-image:url(dist/images/sponsers_logo/positivessl-icon_gradient.png); background-position:center; background-repeat:no-repeat; cursor:pointer;
+.item_1{ background-size:160px 52px; background-image:url(dist/images/sponsers_logo/melwa.png); background-position:center; background-repeat:no-repeat; cursor:pointer; }
+.item_2{  background-size:90px 90px; background-image:url(dist/images/sponsers_logo/srilanka.png); background-position:center; background-repeat:no-repeat; cursor:pointer; } 
+.item_3{  background-size:152px 73px;  background-image:url(dist/images/sponsers_logo/aviation.jpg); background-position:center; background-repeat:no-repeat; cursor:pointer; }
+.item_4{  background-size:152px 79px; background-image:url(dist/images/sponsers_logo/iata.png); background-position:center; background-repeat:no-repeat;  cursor:pointer;} 
+.item_5{  background-size:160px 35px; background-image:url(dist/images/sponsers_logo/creditcards.png); background-position:center; background-repeat:no-repeat; cursor:pointer; } 
+.item_6{ background-size:88px 87px;  background-image:url(dist/images/sponsers_logo/positivessl-icon.png); background-position:center; background-repeat:no-repeat; cursor:pointer;
  }
 
 .item_1:hover{  background-image:url(dist/images/sponsers_logo/melwa.png);   }
@@ -126,9 +138,25 @@ border-radius: 0px;
 .item_6:hover{  background-image:url(dist/images/sponsers_logo/positivessl-icon.png);   }
 
 
+/*rights footer */
+.footer_below_wrap{background-color: rgba(0,45,57,.8);
+line-height: 40px;
+color: #FFF;
+font-size: 11px;}
+.footer_below_wrap .col-md-8 a{color:#FFA300;
+padding: 7px;}
+.footer_below_wrap .col-md-8 a:hover{color:#FFF;
+padding: 7px; text-decoration:none;}
+.footer_links_2{ background-color:rgba(255,255,255,0.7); font-size:12px; color:#033; padding-bottom:10px;}
+.foot_link_group_title{width:100; height:20px;line-height:20px; border-bottom:1px dotted #000000;}
+.footer_link_2_group a{ color:#033;}
+.footer_link_2_group a:hover{ text-decoration:none;}
+
+
 /* custom setings */
 .set_margin_top_10{margin-top:10px !important;}
 .set_full_width{width:100%;}
+
 .border-right{ border-right:1px dotted #CCC; }
 .login_lnk{ font-size:12px; color:#CCC;}
 .login_lnk:hover{  color:#FFF;  text-decoration:none;}
@@ -141,6 +169,12 @@ border-radius: 0px;
 	display:none;
 }
 .btn{width:100%;}
+
+}
+
+@media screen and (max-width: 428px){.footer_links_2 img{width:80%;}}
+@media screen and (min-width: 428px){
+	.footer_links_2 img{width:70%;}
 }
 
 @media screen and (max-width: 992px){
@@ -150,12 +184,16 @@ border-radius: 0px;
 	width:191px;
 }
 .user_det{display:none;}
+.footer_more_links{display:none !important;}
 }
+@media screen and (min-width: 992px){.set_height_186{height:186px;}.footer_sub_links_wrap{width:342px; float:right;}}
 @media screen and (max-width: 642px){
   /* some CSS here */
  .header{
 	 background-image:none !important;
 }
+
+
 /* #### Desktops #### */
 @media screen and (max-width: 768px){
   /* some CSS here */
@@ -163,7 +201,9 @@ border-radius: 0px;
 	width: 200px !important;
 	height: 100px;
 
+
 }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
@@ -173,6 +213,7 @@ border-radius: 0px;
 	height: 100px;
 
 }
+
 }
 
 
