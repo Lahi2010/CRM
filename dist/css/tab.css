@@ -132,11 +132,12 @@ transition: background-color 0.5s ease-in-out;
 
 .footer_tab_style{width:521px !important; margin:0 auto !important;float:none !important; }
 .footer_tab_wrapper{width:100%; position: relative;
-z-index: 2;}
+z-index: 2; height: 32px; background-color:rgba(255,255,255,0.3);}
 .footer_tab_wrapper ul.tabs_footer li {background-color:none !important;}
 .footer_tab_wrapper ul.tabs_footer li:hover {background-color:rgba(0,102,255,1);
 
 }
+.tab_content_footer h4{padding-left:5px;}
 @media screen and (min-width: 992px) {
 	.tab_container {
 		height:130px !important;

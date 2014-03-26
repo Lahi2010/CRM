@@ -122,12 +122,12 @@ border-radius: 0px;
     -o-transition: all .2s ease-in;
     /* Standard */
     transition: all .2s ease-in;}
-.item_1{ background-size:160px 52px; background-image:url(dist/images/sponsers_logo/melwa.png); background-position:center; background-repeat:no-repeat; cursor:pointer; }
-.item_2{  background-size:90px 90px; background-image:url(dist/images/sponsers_logo/srilanka.png); background-position:center; background-repeat:no-repeat; cursor:pointer; } 
-.item_3{  background-size:152px 73px;  background-image:url(dist/images/sponsers_logo/aviation.jpg); background-position:center; background-repeat:no-repeat; cursor:pointer; }
-.item_4{  background-size:152px 79px; background-image:url(dist/images/sponsers_logo/iata.png); background-position:center; background-repeat:no-repeat;  cursor:pointer;} 
-.item_5{  background-size:160px 35px; background-image:url(dist/images/sponsers_logo/creditcards.png); background-position:center; background-repeat:no-repeat; cursor:pointer; } 
-.item_6{ background-size:88px 87px;  background-image:url(dist/images/sponsers_logo/positivessl-icon.png); background-position:center; background-repeat:no-repeat; cursor:pointer;
+.item_1{ background-size:160px 52px; background-image:url(dist/images/sponsers_logo/melwa_gradient.png); background-position:center; background-repeat:no-repeat; cursor:pointer; }
+.item_2{  background-size:90px 90px; background-image:url(dist/images/sponsers_logo/srilanka_gradient.png); background-position:center; background-repeat:no-repeat; cursor:pointer; } 
+.item_3{  background-size:152px 73px;  background-image:url(dist/images/sponsers_logo/aviation_gradient.png); background-position:center; background-repeat:no-repeat; cursor:pointer; }
+.item_4{  background-size:152px 79px; background-image:url(dist/images/sponsers_logo/iata_gradient.png); background-position:center; background-repeat:no-repeat;  cursor:pointer;} 
+.item_5{  background-size:160px 35px; background-image:url(dist/images/sponsers_logo/creditcards_gradient.png); background-position:center; background-repeat:no-repeat; cursor:pointer; } 
+.item_6{ background-size:88px 87px;  background-image:url(dist/images/sponsers_logo/positivessl-icon_gradient.png); background-position:center; background-repeat:no-repeat; cursor:pointer;
  }
 
 .item_1:hover{  background-image:url(dist/images/sponsers_logo/melwa.png);   }
@@ -148,7 +148,8 @@ padding: 7px;}
 .footer_below_wrap .col-md-8 a:hover{color:#FFF;
 padding: 7px; text-decoration:none;}
 .footer_links_2{ background-color:rgba(255,255,255,0.7); font-size:12px; color:#033; padding-bottom:10px;}
-.foot_link_group_title{width:100; height:20px;line-height:20px; border-bottom:1px dotted #000000;}
+.foot_link_group_title{width: 97%;
+margin-bottom: 4px; height:20px;line-height:20px; border-bottom:1px dotted #000000;}
 .footer_link_2_group a{ color:#033;}
 .footer_link_2_group a:hover{ text-decoration:none;}
 
@@ -160,6 +161,40 @@ padding: 7px; text-decoration:none;}
 .border-right{ border-right:1px dotted #CCC; }
 .login_lnk{ font-size:12px; color:#CCC;}
 .login_lnk:hover{  color:#FFF;  text-decoration:none;}
+
+.social_footer_links_wrap{width:100%;height:34px;}
+.social_footer_links_wrap span a{width:34px; height:33px;float:left; margin-right:4px;/* transitions */
+    -webkit-transition: all .4s ease;
+       -moz-transition: all .4s ease;
+        -ms-transition: all .4s ease;
+         -o-transition: all .4s ease;
+            transition: all .4s ease;
+			}
+			
+.social_link_1{ background-image:url(dist/images/social_icon/icon_set.png); background-position:0px 33px;}
+.social_link_1:hover{ background-image:url(dist/images/social_icon/icon_set.png); background-position:0px 0px;}
+
+.social_link_2{ background-image:url(dist/images/social_icon/icon_set.png); background-position:155px 33px;}
+.social_link_2:hover{ background-image:url(dist/images/social_icon/icon_set.png); background-position:155px 0px;}
+
+.social_link_3{ background-image:url(dist/images/social_icon/icon_set.png); background-position:115px 33px;}
+.social_link_3:hover{ background-image:url(dist/images/social_icon/icon_set.png); background-position:115px 0px;}
+
+.social_link_4{ background-image:url(dist/images/social_icon/icon_set.png); background-position:74px 33px;}
+.social_link_4:hover{ background-image:url(dist/images/social_icon/icon_set.png); background-position:74px 0px;}
+
+.social_link_5{ background-image:url(dist/images/social_icon/icon_set.png); background-position:34px 33px;}
+.social_link_5:hover{ background-image:url(dist/images/social_icon/icon_set.png); background-position:34px 0px;}
+
+
+
+.social_footer_links_wrap  span a img {
+width: 100%;
+}
+/* validation message */
+.message_wrap{width:100%; min-height:30px; background-color:rgba(255,0,0,0.75); color:#FFFFFF; position: relative;
+top: -49px; line-height:27px;padding:0 4px 0 4px; font-size:13px;}
+
 
 /* media queries */
 

@@ -408,7 +408,7 @@
  <div class="clearfix"></div>
 
 
-</div></div>
+</div></div> <!-- footer tab links -->
 
 
 <div class="container">
@@ -421,6 +421,13 @@
 <p>
 Findmyfare.com allows you to search, compare and select the flight you want with a just a few clicks. Plan your dream trip with affordable fares, utmost convenience and freedom from the conscious service provider. Findmyfare.com also pioneers in providing innovative travel solutions.
 </p>
+<div class="social_footer_links_wrap">
+<span><a href="#" class="social_link_1"></a></span>
+<span><a href="#" class="social_link_2"></a></span>
+<span><a href="#" class="social_link_3"></a></span>
+<span><a href="#" class="social_link_4"></a></span>
+<span><a href="#" class="social_link_5"></a></span>
+</div>
 </div>
 <div class="col-md-2">
 <div class="foot_link_group_title"><h6><strong>findmyfare</strong></h6></div>
